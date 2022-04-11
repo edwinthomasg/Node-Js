@@ -1,0 +1,24 @@
+{
+  "name": "async-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.js",
+  "type": "module",
+  "dependencies": {
+    "data-uri-to-buffer": "^4.0.0",
+    "formdata-polyfill": "^4.0.10",
+    "node-domexception": "^1.0.0",
+    "fetch-blob": "^3.1.5",
+    "node-fetch": "^3.2.3",
+    "web-streams-polyfill": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "custom":"echo \"Error: ed\" && exit 1",
+    "task":"node async.js",
+    "eventEmitter":"node ../Event-Emitter/eventemit.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
