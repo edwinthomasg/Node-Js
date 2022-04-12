@@ -1,7 +1,6 @@
 {
-  "name": "async-await",
+  "name": "express",
   "version": "1.0.0",
-  "description": "",
   "main": "async.js",
   "type": "module",
   "dependencies": {
@@ -15,10 +14,11 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "custom":"echo \"Error: ed\" && exit 1",
-    "task":"node async.js",
-    "eventEmitter":"node ../Event-Emitter/eventemit.js"
+    "custom": "echo \"Error: ed\" && exit 1",
+    "task": "node async.js",
+    "eventEmitter": "node ../Event-Emitter/eventemit.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

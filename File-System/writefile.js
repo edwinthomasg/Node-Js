@@ -8,3 +8,7 @@ fs.writeFile('code.js','console.log("Overriding")',function(err){
 fs.appendFile('code.js','console.log("Appended code")',function(err){
     console.log("File appended")
 })
+fs.writeFile('code3.js','console.log("New File")',()=>{
+    console.log("Written")
+})
+console.log("Ouside File")
