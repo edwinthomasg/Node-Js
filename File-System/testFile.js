@@ -1,0 +1,12 @@
+let fs = require('fs')
+console.log("Start")
+let data = fs.readFileSync('code.js','utf8')
+console.log("Sync data:",data)
+fs.readFile('code2.js','utf-8',(err,data)=>{
+    if(err)
+    console.log(err)
+    console.log("async data:",data)
+})
+let data2 = fs.readFileSync('code3.js','utf-8')
+console.log("Sync data",data2)
+console.log("End")
