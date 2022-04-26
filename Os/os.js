@@ -1,6 +1,6 @@
 const os = require('os')
-console.log(os.arch())
-console.log(os.cpus().length) /**6 core unit */
+console.log(os.arch()) /**returns 32 or 64bit */
+console.log(os.cpus().length) /**6 core unit : no of core unit does cpu has */
 console.log(os.homedir())
 console.log(os.userInfo())
 console.log("Edwin"+os.EOL+"Thomas")
