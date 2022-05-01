@@ -1,0 +1,15 @@
+form{
+    background-color: black;
+    width: 20%;
+    padding: 30px;
+    color: white;
+}
+input{
+    display: block;
+    margin-bottom: 15px;
+    width: 98%;
+}
+button{
+    margin-left: 150px;
+    margin-top: 10px;
+}
