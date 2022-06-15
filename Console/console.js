@@ -10,4 +10,4 @@ console.groupEnd()
 console.log("Group end")
 console.log(new Error("err"))
 console.trace()
-console.assert("ed"=="edi","Fails") /**return message only when it fails */
+console.assert("edi"=="edi","Fails") /**return message only when it fails */

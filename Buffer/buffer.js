@@ -38,11 +38,12 @@
 // console.log(testBuffer.toString())
 
 let array = [1,2,3,4,5,6,7,8]
+let name = 'edie'
 let buff = Buffer.from(array)
-console.log(buff)
+console.log("Actual Buffer Value : ",buff)
 let sliceBuf = buff.slice(0,4)
-console.log(sliceBuf)
-console.log(buff)
+console.log("Sliced : ",sliceBuf)
+console.log("After slicing : ",buff)
 /**use fill method clear all existed values by fill(0) */
 
 var x = Buffer.from('abcdef');
@@ -50,4 +51,3 @@ var y = x.slice(2,5);
 
 console.log(y.toString());
 console.log(x.toString());
-isNan

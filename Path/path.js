@@ -12,5 +12,5 @@ console.log(normalize) /** removes redundant */
 var rel = path.relative(normalize,'/home/aspirenav654/Desktop/Js/Zlib/zlib.js')
 console.log(rel)
 console.log(path.resolve()) /**current dir */
-console.log(path.isAbsolute('home/aspirenav654/Desktop/Js/Zlib/zlib.js')) /**
+console.log(path.isAbsolute('/home/aspirenav654/Desktop/Js/Zlib/zlib.js')) /**
 returns false. It will check whether the given path is absolute or not */

@@ -1,11 +1,11 @@
-// let {exec} = require('child_process')
-// exec('ls',(error,stdout,stderr)=>{
-//     if(error)
-//     console.log(`Error : ${error.message}`)
-//     if(error)
-//     console.log(`Error : ${error.message}`)
-//     console.log(`output : ${stdout}`)
-// })
+let {exec} = require('child_process')
+exec('find /',(error,stdout,stderr)=>{
+    if(error)
+    console.log(`Error : ${error.message}`)
+    if(error)
+    console.log(`Error : ${error.message}`)
+    console.log(`output : ${stdout}`)
+})
 // let {execFile} = require('child_process')
 // const { stderr } = require('process')
 // execFile('./some.sh',(error,stdout,stderr)=>{

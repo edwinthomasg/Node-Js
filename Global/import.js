@@ -1,2 +1,2 @@
-let res = require('./glexport')
+ require('./glexport')
 console.log(number)

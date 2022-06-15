@@ -9,5 +9,6 @@ function prime(NUMBER){
     }
 }
 prime(process.env.NUMBER)
+console.log(process.env.NUMBER)
 if(flag)
 console.log("Prime")
