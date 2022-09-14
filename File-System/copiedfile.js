@@ -8,3 +8,4 @@ fs.readFile('copiedfile.js','utf8',function(err,data){
 fs.rmdir('./folder',()=>{
     console.log("Removed")
 })
+fs.copyFile('./code.js','abc.js',() => console.log("Done"))

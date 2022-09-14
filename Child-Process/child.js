@@ -15,17 +15,17 @@ exec('find /',(error,stdout,stderr)=>{
 //     console.log(`Error : ${stderr.message}`)
 //     console.log(stdout)
 // })
-let {spawn} = require('child_process')
-let child = spawn('find',['/'])
-child.stdout.on('data',(data)=>{
-    console.log(`Received data : ${data}`)
-})
-child.stderr.on('data',(data)=>{
-    console.log(`Std Error : ${data}`)
-})
-child.on('error',(error)=>{
-    console.log(`Error : ${error}`)
-})
-child.on('exit',(code,signal)=>{
-    console.log("done")
-})
+// let {spawn} = require('child_process')
+// let child = spawn('find',['/'])
+// child.stdout.on('data',(data)=>{
+//     console.log(`Received data : ${data}`)
+// })
+// child.stderr.on('data',(data)=>{
+//     console.log(`Std Error : ${data}`)
+// })
+// child.on('error',(error)=>{
+//     console.log(`Error : ${error}`)
+// })
+// child.on('exit',(code,signal)=>{
+//     console.log("done")
+// })

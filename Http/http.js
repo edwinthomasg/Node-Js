@@ -24,6 +24,7 @@ http.createServer((req,res) => {
 }).listen(8080,()=>{
     console.log("Server listening ...")
 })
+
 /**if i am trying to redirect it to another page based on url it is not possible
  * directly.It can be achieved by using else if.But in express it is easy
  */

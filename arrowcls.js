@@ -1,10 +1,10 @@
 // class A{
 //     name = 'edwin'
 //     sample(){
-//         console.log(this.name)
-//         var sum = ()=>{
+//         console.log(this)
+//         function sum(){
 //             // var name = 'karthik'
-//             console.log(`${this.name}`)
+//             console.log(this)
 //         }
 //         sum()
 //     }

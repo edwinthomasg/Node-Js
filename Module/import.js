@@ -1,2 +1,3 @@
 const imp = require('./export')
-console.log(imp)
+console.log(imp.a)
+console.log(module)
