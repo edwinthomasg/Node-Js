@@ -29,3 +29,4 @@ execFile('./some.sh',(error,stdout,stderr)=>{
 // child.on('exit',(code,signal)=>{
 //     console.log("done")
 // })
+g
